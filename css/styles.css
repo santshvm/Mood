@@ -1,0 +1,56 @@
+.top-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url('../images/bkg.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 0;
+  margin-left: 0;
+}
+
+.mood-logo {
+  height: 16%;
+  width: 16%;
+  padding-left: 90px;
+  padding-top: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 30%;
+}
+
+.left {
+  margin-left: 5%;
+}
+
+.left h1 {
+  font-size: 50px;
+  color: white;
+  line-height: 110px;
+  float: left;
+}
+
+.right {
+  float: right;
+  margin-right: 6%;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.right p {
+  font-size: 18px;
+  color: white;
+  margin-right: 15px;
+  font-weight: 400;
+}
+
+#icon {
+  width: 90px;
+  cursor: pointer;
+}
